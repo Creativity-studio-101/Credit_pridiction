@@ -29,7 +29,8 @@ The model is trained on a dataset containing:
 
 ## Usage
 Run the model using:
-```python
+```
+python
 import pandas as pd
 from model import CreditPredictionModel  
 
@@ -48,11 +49,14 @@ print(prediction)
 
 ## Model Performance
    ####### Linear Regression #######
+```
 R² Score: 0.2530230516267622
 Mean Absolute Error (MAE): 0.30260773891094145
 Mean Squared Error (MSE): 0.15517349475083209
 Root Mean Squared Error (RMSE): 0.39392067063157793
-  ####### Decision Tree #######
+ ```
+
+####### Decision Tree #######
 Accuracy Score: 0.700507614213198
 ```
 Classification Report:
