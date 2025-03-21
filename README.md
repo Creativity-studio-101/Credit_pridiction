@@ -54,6 +54,7 @@ Mean Squared Error (MSE): 0.15517349475083209
 Root Mean Squared Error (RMSE): 0.39392067063157793
   ####### Decision Tree #######
 Accuracy Score: 0.700507614213198
+```
 Classification Report:
                precision    recall  f1-score   support
 
@@ -67,14 +68,15 @@ weighted avg       0.72      0.70      0.71       197
 Confusion Matrix:
  [[ 34  24]
  [ 35 104]]
+```
   ####### Random Forest #######
 Accuracy Score: 0.7868020304568528
+```
 Classification Report:
                precision    recall  f1-score   support
 
            0       0.63      0.66      0.64        58
            1       0.85      0.84      0.85       139
-
     accuracy                           0.79       197
    macro avg       0.74      0.75      0.75       197
 weighted avg       0.79      0.79      0.79       197
@@ -82,6 +84,7 @@ weighted avg       0.79      0.79      0.79       197
 Confusion Matrix:
  [[ 38  20]
  [ 22 117]]
+```
 
 ## Results
 The model predicts **whether a customer will get credit approval** based on historical data.
